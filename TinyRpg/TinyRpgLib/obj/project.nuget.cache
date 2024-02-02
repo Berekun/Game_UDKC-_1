@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "T0d088n3g5dVhSkFq1KxsKPLWXQSngdg+/kaGoH32bao5xX0IQoDFaMuSmnXFWZJznR3WXRd0z2YaelRbR3Ddg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\3ev\\TinyRpg\\TinyRpgLib\\TinyRpgLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xnats\\.nuget\\packages\\freetypesharp\\1.1.3\\freetypesharp.1.1.3.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\nvorbis\\0.10.5\\nvorbis.0.10.5.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\openal.soft\\1.19.1\\openal.soft.1.19.1.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk\\4.7.7\\opentk.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.compute\\4.7.7\\opentk.compute.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.core\\4.7.7\\opentk.core.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.graphics\\4.7.7\\opentk.graphics.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.input\\4.7.7\\opentk.input.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.mathematics\\4.7.7\\opentk.mathematics.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.openal\\4.7.7\\opentk.openal.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.30\\opentk.redist.glfw.3.3.8.30.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.windowing.common\\4.7.7\\opentk.windowing.common.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.windowing.desktop\\4.7.7\\opentk.windowing.desktop.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.7.7\\opentk.windowing.graphicslibraryframework.4.7.7.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\stbimagesharp\\2.27.13\\stbimagesharp.2.27.13.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\stbrectpacksharp\\1.0.4\\stbrectpacksharp.1.0.4.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\stbsharp\\0.7.2.38\\stbsharp.0.7.2.38.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\xnats\\.nuget\\packages\\udk\\1.0.0\\udk.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

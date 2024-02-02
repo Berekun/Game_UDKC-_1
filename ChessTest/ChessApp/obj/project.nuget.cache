@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "cxNaKDiOdW4PQhH4s5mRJr47W9Daj2HKm48b3KBwwcII9qnrkzwGgQfcDLc4Rn//4Ld2k7X5hhCvNN8cyGQIIg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessApp\\ChessApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xnats\\.nuget\\packages\\openal.soft\\1.19.1\\openal.soft.1.19.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package DAMGL. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Package source",
+      "libraryId": "DAMGL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

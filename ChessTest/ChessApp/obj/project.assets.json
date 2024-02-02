@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OpenAL.Soft/1.19.1": {
+        "type": "package",
+        "build": {
+          "build/openal.soft.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenAL32.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/OpenAL32.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/OpenAL32.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/OpenAL32.lib": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ChessLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ChessLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChessLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenAL.Soft/1.19.1": {
+      "sha512": "FmaNZ6fcxwqEnybXuex/87On+rBLQy7v1VVQzEdzVHzWgRYWBj2fBVjcttiG9DlRXxl4/KS2Eof6h15hxhViEQ==",
+      "type": "package",
+      "path": "openal.soft/1.19.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/openal.soft.props",
+        "openal.soft.1.19.1.nupkg.sha512",
+        "openal.soft.nuspec",
+        "runtimes/win-x64/native/OpenAL32.dll",
+        "runtimes/win-x64/native/OpenAL32.lib",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/OpenAL32.dll",
+        "runtimes/win-x86/native/OpenAL32.lib",
+        "runtimes/win-x86/native/soft_oal.dll",
+        "sources/AL/al.h",
+        "sources/AL/alc.h",
+        "sources/AL/alext.h",
+        "sources/AL/efx-creative.h",
+        "sources/AL/efx-presets.h",
+        "sources/AL/efx.h"
+      ]
+    },
+    "ChessLib/1.0.0": {
+      "type": "project",
+      "path": "../ChessLib/ChessLib.csproj",
+      "msbuildProject": "../ChessLib/ChessLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ChessLib >= 1.0.0",
+      "DAMGL >= 1.0.0",
+      "OpenAL.Soft >= 1.19.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xnats\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessApp\\ChessApp.csproj",
+      "projectName": "ChessApp",
+      "projectPath": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessApp\\ChessApp.csproj",
+      "packagesPath": "C:\\Users\\xnats\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\xnats\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessLib\\ChessLib.csproj": {
+              "projectPath": "C:\\Users\\xnats\\Desktop\\DAM\\Programacion 1 DAM\\programming\\2ev\\ChessTest\\ChessLib\\ChessLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "DAMGL": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "OpenAL.Soft": {
+            "target": "Package",
+            "version": "[1.19.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package DAMGL. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, Package source",
+      "libraryId": "DAMGL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
